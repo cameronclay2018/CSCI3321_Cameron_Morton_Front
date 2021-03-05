@@ -1,0 +1,90 @@
+.square 
+{
+    width: 50px;
+    height: 50px;
+    border: thin black solid;
+    margin-top: 3.75px;
+    margin-bottom: 3.75px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.odd
+{
+    transition: transform 4s;
+    transition-timing-function: ease;
+}
+
+.even
+{
+    transition: transform 4s;
+    transition-timing-function: ease;
+}
+
+#main
+{
+    width: 800px;
+    height: 450px;
+    border: thin black solid;
+    margin: auto;
+    transition: height 4s, border-radius 4s;
+    transition-timing-function: ease;
+}
+
+#main:hover .odd
+{
+    transform: translate(375px, 0px) rotate(-1080deg) scale(.75, .75);
+}
+
+#main:hover .even
+{
+    transform: translate(-343px, 0px) rotate(1080deg) scale(2, 2);
+}
+
+#main:hover
+{
+    height: 485px;
+    border-radius: 20px;
+}
+
+#one
+{
+    background: red;
+}
+
+#two
+{
+    background: orange;
+}
+
+#three
+{
+    background: yellow;
+}
+
+#four
+{
+    background: green;
+}
+
+#five
+{
+    background: blue;
+}
+
+#six
+{
+    background: purple;
+}
+
+#seven
+{
+    background: violet;
+}
+
+#eight
+{
+    background: blueviolet;
+}
