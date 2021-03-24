@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="/style/calculator.css">
+    <script src="/scripts/calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="button zero" onclick="updateDisplay('0')">0</div>
+        <div class="button one" onclick="updateDisplay('1')">1</div>
+        <div class="button two" onclick="updateDisplay('2')">2</div>
+        <div class="button three" onclick="updateDisplay('3')">3</div>
+        <div class="button four" onclick="updateDisplay('4')">4</div>
+        <div class="button five" onclick="updateDisplay('5')">5</div>
+        <div class="button six" onclick="updateDisplay('6')">6</div>
+        <div class="button seven" onclick="updateDisplay('7')">7</div>
+        <div class="button eight" onclick="updateDisplay('8')">8</div>
+        <div class="button nine" onclick="updateDisplay('9')">9</div>
+        <div class="button" id="equals" onclick="updateDisplay('=')">=</div>
+        <div class="button clear" onclick="updateDisplay('')">AC</div>
+        <div class="button plus" onclick="updateDisplay('+')">+</div>
+        <div class="button minus" onclick="updateDisplay('-')">-</div>
+        <div id="display"></div>
+        <div class="button multiply" onclick="updateDisplay('*')">*</div>
+        <div class="button divide" onclick="updateDisplay('/')">/</div>
+    </div>
+    
+
+</body>
+</html>
