@@ -1,0 +1,105 @@
+body
+{
+    background-color: lightblue;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+    width: 500px;
+    margin: auto;
+    background-color: lightseagreen;
+    margin-bottom: 20px;
+}
+
+.background
+{
+    background-color: lightseagreen;
+    width: 500px;
+    margin: auto;
+}
+
+#gameboard
+{
+    display: grid;
+    background-color: lightblue;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    grid-gap: 3px;
+    grid-template-areas: 
+    'square1 square2 square3'
+    'square4 square5 square6'
+    'square7 square8 square9';
+    padding: 3px;
+}
+
+.square
+{
+    height: auto;
+    width: auto;
+    background-color: lightseagreen;
+}
+
+.square1
+{
+    grid-area: square1;
+}
+
+.square2
+{
+    grid-area: square2;
+}
+
+.square3
+{
+    grid-area: square3;
+}
+
+.square4
+{
+    grid-area: square4;
+}
+
+.square5
+{
+    grid-area: square5;
+}
+
+.square6
+{
+    grid-area: square6;
+}
+
+.square7
+{
+    grid-area: square7;
+}
+
+.square8
+{
+    grid-area: square8;
+}
+
+.square9
+{
+    grid-area: square9;
+}
+
+#instructions
+{
+    text-align: center;
+    font-size: 18pt;
+}
+
+#button
+{
+    text-align: center;
+    font-size: 14pt;
+    background-color: lightseagreen;
+    width: 100px;
+    margin: auto;
+    color: white;
+}
